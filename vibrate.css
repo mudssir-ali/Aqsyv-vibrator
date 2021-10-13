@@ -8,7 +8,7 @@ body{
    }  
    h1 {  
     text-align: center;  
-    margin-top: 3rem;  
+    margin-top: 1rem;  
     color: #262320;
    }  
    /*Button Three*/  
@@ -16,7 +16,7 @@ body{
     
    .button-three:hover {  
       
-    color: rgba(0, 0, 0, 0);  
+    color: #F1F3F6;  
    }  
    
    .button-three:active:after {  
