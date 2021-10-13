@@ -15,8 +15,7 @@ body{
 
     
    .button-three:hover {  
-    background:rgb(201, 192, 226);
-    box-shadow: 0px 2px 10px 5px #6AC5DF;  
+    background:rgb(201, 192, 226);  
     color: rgba(0, 0, 0, 0);  
    }  
    .button-three:after {  
