@@ -11,9 +11,6 @@ body{
     margin-top: 3rem;  
     color: #262320;
    }  
-{  
-    
-   
    /*Button Three*/  
 
     
@@ -22,4 +19,21 @@ body{
     box-shadow: 0px 2px 10px 5px #6AC5DF;  
     color: rgba(0, 0, 0, 0);  
    }  
-   
+   .button-three:after {  
+    content: "";  
+    background: #6AC5DF;  
+    display: block;  
+    position: absolute;  
+    padding-top: 300%;  
+    padding-left: 350%;  
+    margin-left: -20px !important;  
+    margin-top: -120%;  
+    opacity: 0;  
+    transition: all 0.8s;  
+   }  
+   .button-three:active:after {  
+    padding: 0;  
+    margin: 0;  
+    opacity: 1;  
+    transition: 0s;  
+   }  
