@@ -1,4 +1,17 @@
 body{  
+    background: #929fb5;  
+    height: 100vh;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    flex-direction: column;  
+   }  
+   h1 {  
+    text-align: center;  
+    margin-top: 3rem;  
+    color: #262320;
+   }  
+{  
     
    
    /*Button Three*/  
