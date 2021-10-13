@@ -18,18 +18,7 @@ body{
     background:rgb(201, 192, 226);  
     color: rgba(0, 0, 0, 0);  
    }  
-   .button-three:after {  
-    content: "";  
-    background: #6AC5DF;  
-    display: block;  
-    position: absolute;  
-    padding-top: 300%;  
-    padding-left: 350%;  
-    margin-left: -20px !important;  
-    margin-top: -120%;  
-    opacity: 0;  
-    transition: all 0.8s;  
-   }  
+   
    .button-three:active:after {  
     padding: 0;  
     margin: 0;  
