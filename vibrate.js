@@ -5,5 +5,5 @@ navigator.vibrate(ms)
 // for button 2
 
 function vibratePattern (){ 
-navigator.vibrate([300,100,300,100,300])
+navigator.vibrate([1000,100,300,100,300])
 }
